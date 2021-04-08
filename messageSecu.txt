@@ -1,0 +1,5 @@
+Afin de d'assurer une sécurité maximale dans vos comptes penser à: 
+    -Ne pas divulguer vos code de sécurité,
+    -Vous assurer que personne ne puisse vous voir tapper vos code de sécurité;
+    -Vous déconnecter de votre session à la fin de chaque utilisation
+    

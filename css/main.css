@@ -87,8 +87,13 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+ *{
+   margin:0;
+   padding:0;
+ }
 
 body{
+  min-height: 100vh;
   display:flex;
   flex-direction: column;
   justify-content: space-between;
@@ -102,8 +107,8 @@ body{
   position: fixed;
   width: 100%;
   height: 100%;
-  background-color: grey ;
-  opacity: 0.9;
+  background-color: rgba(128, 128, 128, 0.950)  ;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -114,17 +119,26 @@ body{
 
 #accept{
   width: 10em;
-  height: auto;;
+  height: auto;
 }
 footer{
-  background-color: blue;
+  width: 100vw;
 }
-.container{
-  background-color: aqua;
-  width: 80em ;
-  height: 30em;
-  margin-top: 2em;
+footer a{
+  color: white;
 }
+section{
+  width: 80%;
+  margin: 1em 10% 1em 10% 
+}
+
+
+
+/* .carte{
+  background-color: chartreuse;
+  width: 60%;
+  height: 80%;
+} */
 /* ==========================================================================
    Helper classes
    ========================================================================== */

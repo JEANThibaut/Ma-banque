@@ -21,13 +21,13 @@
   <meta name="theme-color" content="#fafafa">
 </head>
 
-<body>
+<body onload="loadContent()">
   <div id="layerSecu">
-    <div>
+   <div>
       <p id="msg">Un message</p>
-        <div>
-          <button onclick="hiddenSecu()" class="btn btn-danger" id="accept">J'ai compris</button>
-        </div>
+      <div>
+        <button onclick="hiddenSecu()" class="btn btn-danger" id="accept">J'ai compris</button>
+      </div>
     </div>
   </div>
  
@@ -65,28 +65,77 @@
     </nav>
   </header>
 
-  <main>
-   <div class="container"></div>
-   <div class="container"></div>
-   <div class="container"></div>
-   <div class="container"></div>
-  </main>
-
-
-  <footer>
-    <div>
-      <a href="#">Mesures de sécurité</a>
+  <section>
+    <div class="card text-center">
+      <div class="card-header">
+        Mon compte
+      </div>
+        <div class="card text-center">
+          <div class="card-header">
+            Featured
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Special title treatment</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary mx-2 my-2">Voir ce compte</a>
+            <a href="#" class="btn btn-primary mx-2 my-2">Faire un virement</a>
+          </div>
+        </div>
     </div>
-    <div>
-      <a href=#>CGVU</a>
+  </section>
+  <section>
+    <div class="card text-center">
+      <div class="card-header">
+        Mon compte
+      </div>
+        <div class="card text-center">
+          <div class="card-header">
+            Featured
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Special title treatment</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary mx-2 my-2">Voir ce compte</a>
+            <a href="#" class="btn btn-primary mx-2 my-2">Faire un virement</a>
+          </div>
+        </div>
     </div>
-  </footer>
+  </section>
+  <section>
+    <div class="card text-center">
+      <div class="card-header">
+        Mon compte
+      </div>
+        <div class="card text-center">
+          <div class="card-header">
+            Featured
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Special title treatment</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary mx-2 my-2">Voir ce compte</a>
+            <a href="#" class="btn btn-primary mx-2 my-2">Faire un virement</a>
+          </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+<footer class="bg-primary">
+  <div>
+    <a href="#">Mesures de sécurité</a>
+  </div>
+  <div>
+    <a href=#>CGVU</a>
+  </div>
+</footer>
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/layerSecu.js"></script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
