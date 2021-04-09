@@ -100,11 +100,15 @@ body{
   flex-direction: column;
   justify-content: space-between;
 }
-
-.nav-item{
+/* .compte{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+} */
+/* .nav-item{
   border: solid 1px blue;
   margin:2px 5px 2px 5px; 
-}
+} */
 #layerSecu{
   position: fixed;
   width: 100%;
@@ -143,6 +147,7 @@ article{
   width: 20em;
   margin-bottom: 2em;
   text-align: center;
+ 
 }
 
 
