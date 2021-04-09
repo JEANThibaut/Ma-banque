@@ -1,25 +1,21 @@
 function news() {
-  
     let httpRequest = new XMLHttpRequest();
     httpRequest.onreadystatechange = function() {
-        let mainTitle = document.getElementsByClassName("mainTitle");
-        let secondTitle = document.getElementsByClassName("secondTitle");
-        let text = document.getElementsByClassName("text");
+
         if (httpRequest.readyState === XMLHttpRequest.DONE) {
             if (httpRequest.status === 200) {
                 let data = JSON.parse(httpRequest.responseText);
                 for (i=0;i<data.length;i++){
-                mainTitle[i].innerText = `Id : ${data[i].id}`;
-                secondTitle[i].innerText = `titre : ${data[i].titre}`;
-                text[i].innerText = `contenu :  ${data[i].contenu}`;
+                    let section= document.querySelector('section');
+                    section.innerHTML += '<article><div class="card"><div class="card-header">' + data[i].id + '</div><div class="card-body"><h5 class="card-title">' + data[i].titre + '</h5><p class="card-text">' + data[i].contenu + '</p><a href="#" class="btn btn-primary">Voir la page</a></div></div></article>'
                 }
             } 
             else {
-                mainTitle.innerText = "Nous n'avons pas réussi à récupérer le contenu";
+                section.innerText = "Nous n'avons pas réussi à récupérer le contenu";
             }
         } 
         else {
-            mainTitle.innerText = "Requête en cours";
+            section.innerText = "Requête en cours";
         }
     };
 
