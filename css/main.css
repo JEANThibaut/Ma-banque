@@ -168,6 +168,11 @@ article{
   text-align: center;
   justify-content: space-around;
 }
+.form{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
 .card{
   width: 100%;
   background-color: #7EbE8F;

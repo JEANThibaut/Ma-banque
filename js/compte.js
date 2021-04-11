@@ -1,4 +1,4 @@
-function compte() {
+function indexCompte() {
     let httpRequest = new XMLHttpRequest();
     
     httpRequest.onreadystatechange = function() {
