@@ -1,0 +1,18 @@
+[
+    {
+        "Nom": "Compte courant", 
+        "Type": "Compte CB",
+        "Depot": "400"
+    },
+    {
+        "Nom": "Livret", 
+        "Type": "Livret A",
+        "Depot": "1200"
+    },
+    {
+        "Nom": "Epargne", 
+        "Type": "Livret Epargne",
+        "Depot": "20000"
+    }
+
+]
