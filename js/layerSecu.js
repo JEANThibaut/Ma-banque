@@ -1,4 +1,3 @@
-// Fonction déclenchée par le boutton qui lance la requête AJAX
 function loadContent() {
     let httpRequest = new XMLHttpRequest();
     httpRequest.onreadystatechange = function() {
