@@ -172,6 +172,12 @@ article{
   display: flex;
   flex-direction: column;
   width: 60%;
+  text-align: center;
+  
+}
+.form div{
+  margin-bottom: 2px;
+  
 }
 .card{
   width: 100%;

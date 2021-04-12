@@ -10,7 +10,7 @@ function indexCompte() {
                 console.log(data);
                 for (i=0;i<data.length;i++){
                     console.log(section)
-                    section.innerHTML += '<article><div class="card"><div class="card-header">' + data[i].Nom + '</div><div class="card-body"><h5 class="card-title">' + data[i].Type + '</h5><p class="card-text">' + data[i].Depot + " €"  + '</p><a href="#" class="btn btn-primary">Voir la page</a></div></div></article>'
+                    section.innerHTML += '<article><div class="card"><div class="card-header">' + data[i].Nom + '</div><div class="card-body"><h5 class="card-title">' + data[i].Type + '</h5><p class="card-text">' + data[i].Depot + " €"  + '</p><a href="#" class="btn btn-primary">Voir le compte</a></div></div></article>'
                 }
             } 
             else {

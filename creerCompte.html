@@ -58,18 +58,29 @@
     </nav>
   </header>
 
+  
 <section class="main">
   <div class="form">
-    
-    <input class="form-control form-control-lg" type="text" placeholder="Votre Nom" aria-label=".form-control-lg example">
-    <input class="form-control form-control-lg" type="text" placeholder="Vote Prénom" aria-label=".form-control-lg example">
-    <select class="form-select" aria-label="type select">
-      <option selected>Choissiser le type de compte</option>
-      <option value="1">Compte CB</option>
-      <option value="2">Livret A</option>
-      <option value="3">Livret Epargne</option>
-    </select>
-    <input class="form-control form-control-lg" type="text" placeholder="Somme à déposer" aria-label=".form-control-lg example">
+    <div>
+      <input class="form-control form-control-lg" type="text" placeholder="Votre Nom" aria-label=".form-control-lg example">
+    </div>
+    <div>
+      <input class="form-control form-control-lg" type="text" placeholder="Votre Prénom" aria-label=".form-control-lg example">
+    </div>
+    <div>
+      <select class="form-select" aria-label="type select">
+        <option selected>Choissiser le type de compte</option>
+        <option value="1">Compte CB</option>
+        <option value="2">Livret A</option>
+        <option value="3">Livret Epargne</option>
+      </select>
+    </div>
+    <div>
+      <input class="form-control form-control-lg" type="number" placeholder="Somme à déposer" aria-label=".form-control-lg example">
+    </div>
+    <div>
+      <button class="btn">Submit</button>
+    </div>  
   </div>
 </section>
   
@@ -88,6 +99,7 @@
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
+
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
